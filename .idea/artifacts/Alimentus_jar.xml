@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Alimentus:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Alimentus_jar</output-path>
+    <root id="archive" name="Alimentus.jar">
+      <element id="module-output" name="Alimentus" />
+    </root>
+  </artifact>
+</component>

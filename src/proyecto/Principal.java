@@ -14,6 +14,6 @@ public class Principal {
 
                 }
         });
-
+        int variable = 0;
     }
 }
