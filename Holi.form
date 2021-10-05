@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="proyecto.Holi">
+  <grid id="27dc6" binding="panel3" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="970" height="333"/>
+    </constraints>
+    <properties>
+      <background color="-6460780"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="649e4" class="javax.swing.JLabel">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font name="Unispace" size="22"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Alimentos"/>
+        </properties>
+      </component>
+      <grid id="a4190" binding="panelC" layout-manager="GridLayoutManager" row-count="7" column-count="20" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-6460780"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="b73fc">
+            <constraints>
+              <grid row="1" column="0" row-span="5" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="94" height="14"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="c7b70" class="javax.swing.JButton" binding="patatabutton">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono"/>
+              <foreground color="-15854149"/>
+              <text value="Patata"/>
+            </properties>
+          </component>
+          <component id="5738a" class="javax.swing.JButton" binding="button2" default-binding="true">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono"/>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="fac6a" class="javax.swing.JButton" binding="maizButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono"/>
+              <foreground color="-15854149"/>
+              <text value="Maiz"/>
+            </properties>
+          </component>
+          <hspacer id="cae51">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="51389" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Lucida Sans Typewriter"/>
+              <foreground color="-4518912"/>
+              <text value="Carbiohidratos complejos"/>
+            </properties>
+          </component>
+          <hspacer id="1b466">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="fe95c" class="javax.swing.JButton" binding="button4" default-binding="true">
+            <constraints>
+              <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono"/>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="f4069" class="javax.swing.JButton" binding="button5" default-binding="true">
+            <constraints>
+              <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono"/>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="69a5" class="javax.swing.JButton" binding="button6" default-binding="true">
+            <constraints>
+              <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono"/>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <hspacer id="3ef30">
+            <constraints>
+              <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="fc460">
+            <constraints>
+              <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="b96e5">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="205f9">
+            <constraints>
+              <grid row="1" column="12" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="3ee18" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Lucida Sans Typewriter"/>
+              <foreground color="-4518912"/>
+              <text value="Grasas"/>
+            </properties>
+          </component>
+          <hspacer id="71197">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="a89f9">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="76e91">
+            <constraints>
+              <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="5e908">
+            <constraints>
+              <grid row="1" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="d534a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Lucida Sans Typewriter"/>
+              <foreground color="-4518912"/>
+              <text value="Carbohidratos"/>
+            </properties>
+          </component>
+          <component id="7e887" class="javax.swing.JButton" binding="button11" default-binding="true">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="c54ff" class="javax.swing.JButton" binding="button12" default-binding="true">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="d16fc" class="javax.swing.JButton" binding="button13" default-binding="true">
+            <constraints>
+              <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="6a5b" class="javax.swing.JButton" binding="button14" default-binding="true">
+            <constraints>
+              <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <hspacer id="b7d25">
+            <constraints>
+              <grid row="1" column="14" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="91ae3">
+            <constraints>
+              <grid row="1" column="15" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="9dfaa" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="158" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="16"/>
+              <foreground color="-16448251"/>
+              <text value="Caracteristicas"/>
+            </properties>
+          </component>
+          <component id="8d17e" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints>
+              <grid row="2" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="daf35" class="javax.swing.JButton" binding="button3" default-binding="true">
+            <constraints>
+              <grid row="3" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="a2902" class="javax.swing.JButton" binding="button7" default-binding="true">
+            <constraints>
+              <grid row="4" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="cc95a" class="javax.swing.JButton" binding="button8" default-binding="true">
+            <constraints>
+              <grid row="5" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="3d56c" class="javax.swing.JButton" binding="button9" default-binding="true">
+            <constraints>
+              <grid row="6" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <hspacer id="88553">
+            <constraints>
+              <grid row="1" column="16" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="aab5f">
+            <constraints>
+              <grid row="1" column="17" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="b582b">
+            <constraints>
+              <grid row="1" column="18" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="ae5ac" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="19" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-4518912"/>
+              <text value="Proteínas"/>
+            </properties>
+          </component>
+          <component id="485b8" class="javax.swing.JButton" binding="button10" default-binding="true">
+            <constraints>
+              <grid row="2" column="19" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="b0be6" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="19" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="8da38" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="19" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="49fe7" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="19" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="95975" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="19" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15854149"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="proyecto.Ventana2">
+  <grid id="27dc6" binding="Panel2" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="335" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-6460780"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="513cd" class="javax.swing.JLabel" binding="Peso">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="46" height="34"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced"/>
+          <foreground color="-16448251"/>
+          <text value="Peso(kg)"/>
+        </properties>
+      </component>
+      <component id="4a5fb" class="javax.swing.JLabel" binding="Altura">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced"/>
+          <foreground color="-16448251"/>
+          <text value="Altura (cm)"/>
+        </properties>
+      </component>
+      <component id="69a17" class="javax.swing.JTextField" binding="Altura_input">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced"/>
+        </properties>
+      </component>
+      <component id="e25fe" class="javax.swing.JLabel" binding="Genero">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced"/>
+          <foreground color="-16448251"/>
+          <text value="Género"/>
+        </properties>
+      </component>
+      <component id="66e4c" class="javax.swing.JComboBox" binding="Genero_lista">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="30"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced"/>
+          <model>
+            <item value=""/>
+            <item value="Femenino"/>
+            <item value="Maculino"/>
+          </model>
+        </properties>
+      </component>
+      <component id="50354" class="javax.swing.JButton" binding="aceptarButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-9660516"/>
+          <font name="JetBrains Mono"/>
+          <foreground color="-16448251"/>
+          <text value="Aceptar"/>
+        </properties>
+      </component>
+      <component id="c6d11" class="javax.swing.JLabel" binding="Caracteristicas_fisicas">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="111" height="31"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Typewriter"/>
+          <foreground color="-4518912"/>
+          <text value="Caracteristicas fisicas"/>
+        </properties>
+      </component>
+      <component id="88bee" class="javax.swing.JTextField" binding="Peso_input">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="34"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+          <enabled value="true"/>
+          <font name="Monospaced"/>
+        </properties>
+      </component>
+      <component id="1801d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced"/>
+          <foreground color="-16448251"/>
+          <text value="Seleccione la enfermedad"/>
+        </properties>
+      </component>
+      <component id="cd65c" class="javax.swing.JComboBox" binding="Lista_enfermedades2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced"/>
+          <model>
+            <item value=""/>
+            <item value="Diabetes"/>
+            <item value="Anemia"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
